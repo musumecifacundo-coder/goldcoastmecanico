@@ -27,7 +27,7 @@ export default function BookingForm() {
             // Check if config is valid (simple check)
             const apiKey = import.meta.env.VITE_FIREBASE_API_KEY;
 
-            if (!apiKey || apiKey === "" || apiKey === "YOUR_API_KEY") {
+            if (!apiKey || apiKey === "" || apiKey === "mock_key") {
                 console.warn("Firebase not configured. Simulating success.");
                 await new Promise(resolve => setTimeout(resolve, 1500));
                 setSuccess(true);
