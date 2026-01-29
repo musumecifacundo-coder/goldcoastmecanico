@@ -1,4 +1,4 @@
-import { Search, ShieldCheck, Wrench, Smartphone } from 'lucide-react';
+import { Search, Wrench, Smartphone } from 'lucide-react';
 
 const services = [
     {
